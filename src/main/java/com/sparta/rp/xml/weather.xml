@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<current>
+    <city id="2643743" name="London">
+        <coord lon="-0.1257" lat="51.5085"></coord>
+        <country>GB</country>
+        <timezone>3600</timezone>
+        <sun rise="2022-10-17T06:27:22" set="2022-10-17T17:04:04"></sun>
+    </city>
+    <temperature value="291.53" min="290.1" max="292.59" unit="kelvin"></temperature>
+    <feels_like value="291.09" unit="kelvin"></feels_like>
+    <humidity value="64" unit="%"></humidity>
+    <pressure value="1018" unit="hPa"></pressure>
+    <wind>
+        <speed value="4.12" unit="m/s" name="Gentle Breeze"></speed>
+        <gusts></gusts>
+        <direction value="250" code="WSW" name="West-southwest"></direction>
+    </wind>
+    <clouds value="75" name="broken clouds"></clouds>
+    <visibility value="10000"></visibility>
+    <precipitation mode="no"></precipitation>
+    <weather number="803" value="broken clouds" icon="04d"></weather>
+    <lastupdate value="2022-10-17T13:18:12"></lastupdate>
+</current>
