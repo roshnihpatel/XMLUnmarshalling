@@ -28,8 +28,11 @@ public class Wind {
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [gusts = "+gusts+", speed = "+speed+", direction = "+direction+"]";
+    public String toString() {
+        return "{" +
+                "gusts='" + gusts + '\'' +
+                ", speed=" + speed +
+                ", direction=" + direction +
+                '}';
     }
 }

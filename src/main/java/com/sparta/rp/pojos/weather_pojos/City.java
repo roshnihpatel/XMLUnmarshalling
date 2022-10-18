@@ -10,7 +10,6 @@ public class City {
     private String timezone;
 
     private String name;
-    @JacksonXmlProperty(isAttribute = true)
     private String id;
 
     private Sun sun;
@@ -46,8 +45,14 @@ public class City {
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [country = "+country+", coord = "+coord+", timezone = "+timezone+", name = "+name+", id = "+id+", sun = "+sun+"]";
+    public String toString() {
+        return "{" +
+                "country='" + country + '\'' +
+                ", coord=" + coord +
+                ", timezone='" + timezone + '\'' +
+                ", name='" + name + '\'' +
+                ", id='" + id + '\'' +
+                ", sun=" + sun +
+                '}';
     }
 }

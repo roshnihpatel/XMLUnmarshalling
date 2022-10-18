@@ -8,9 +8,11 @@ public class Visibility {
         return value;
     }
 
+
     @Override
-    public String toString()
-    {
-        return "ClassPojo [value = "+value+"]";
+    public String toString() {
+        return "{" +
+                "value='" + value + '\'' +
+                '}';
     }
 }

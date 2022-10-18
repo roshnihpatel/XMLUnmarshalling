@@ -9,9 +9,10 @@ public class Lastupdate {
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [value = "+value+"]";
+    public String toString() {
+        return "{" +
+                "value='" + value + '\'' +
+                '}';
     }
 }
 

@@ -23,9 +23,11 @@ public class Weather {
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [number = "+number+", icon = "+icon+", value = "+value+"]";
+    public String toString() {
+        return "{" +
+                "number='" + number + '\'' +
+                ", icon='" + icon + '\'' +
+                ", value='" + value + '\'' +
+                '}';
     }
-
 }

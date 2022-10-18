@@ -15,11 +15,11 @@ public class Pressure {
         return value;
     }
 
-
     @Override
-    public String toString()
-    {
-        return "ClassPojo [unit = "+unit+", value = "+value+"]";
+    public String toString() {
+        return "{" +
+                "unit='" + unit + '\'' +
+                ", value='" + value + '\'' +
+                '}';
     }
-
 }

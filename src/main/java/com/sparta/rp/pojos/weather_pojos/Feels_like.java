@@ -16,8 +16,10 @@ public class Feels_like {
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [unit = "+unit+", value = "+value+"]";
+    public String toString() {
+        return "{" +
+                "unit='" + unit + '\'' +
+                ", value='" + value + '\'' +
+                '}';
     }
 }

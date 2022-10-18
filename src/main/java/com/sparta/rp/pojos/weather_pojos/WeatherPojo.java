@@ -85,10 +85,20 @@ public class WeatherPojo {
         return wind;
     }
 
-
     @Override
-    public String toString()
-    {
-        return "ClassPojo [precipitation = "+precipitation+", visibility = "+visibility+", city = "+city+", temperature = "+temperature+", weather = "+weather+", humidity = "+humidity+", pressure = "+pressure+", clouds = "+clouds+", lastupdate = "+lastupdate+", feels_like = "+feels_like+", wind = "+wind+"]";
+    public String toString() {
+        return "WeatherPojo{" +
+                "precipitation=" + precipitation +
+                ", visibility=" + visibility +
+                ", city=" + city +
+                ", temperature=" + temperature +
+                ", weather=" + weather +
+                ", humidity=" + humidity +
+                ", pressure=" + pressure +
+                ", clouds=" + clouds +
+                ", lastupdate=" + lastupdate +
+                ", feels_like=" + feels_like +
+                ", wind=" + wind +
+                '}';
     }
 }

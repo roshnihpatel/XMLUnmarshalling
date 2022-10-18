@@ -17,8 +17,10 @@ public class Sun {
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [set = "+set+", rise = "+rise+"]";
+    public String toString() {
+        return "{" +
+                "set='" + set + '\'' +
+                ", rise='" + rise + '\'' +
+                '}';
     }
 }

@@ -23,8 +23,11 @@ public class Speed {
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [unit = "+unit+", name = "+name+", value = "+value+"]";
+    public String toString() {
+        return "{" +
+                "unit='" + unit + '\'' +
+                ", name='" + name + '\'' +
+                ", value='" + value + '\'' +
+                '}';
     }
 }

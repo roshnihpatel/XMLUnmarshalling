@@ -16,8 +16,10 @@ public class Clouds {
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [name = "+name+", value = "+value+"]";
+    public String toString() {
+        return "{" +
+                "name='" + name + '\'' +
+                ", value='" + value + '\'' +
+                '}';
     }
 }

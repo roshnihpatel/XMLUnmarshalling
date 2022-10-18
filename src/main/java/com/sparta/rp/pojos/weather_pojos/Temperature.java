@@ -30,8 +30,12 @@ public class Temperature {
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [unit = "+unit+", min = "+min+", max = "+max+", value = "+value+"]";
+    public String toString() {
+        return "{" +
+                "unit='" + unit + '\'' +
+                ", min='" + min + '\'' +
+                ", max='" + max + '\'' +
+                ", value='" + value + '\'' +
+                '}';
     }
 }

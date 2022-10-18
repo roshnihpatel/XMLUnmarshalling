@@ -38,8 +38,11 @@ public class Direction {
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [code = "+code+", name = "+name+", value = "+value+"]";
+    public String toString() {
+        return "{" +
+                "code='" + code + '\'' +
+                ", name='" + name + '\'' +
+                ", value='" + value + '\'' +
+                '}';
     }
 }

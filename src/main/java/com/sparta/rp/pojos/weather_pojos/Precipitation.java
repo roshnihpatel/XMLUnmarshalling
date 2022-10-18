@@ -8,8 +8,9 @@ public class Precipitation {
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [mode = "+mode+"]";
+    public String toString() {
+        return "{" +
+                "mode='" + mode + '\'' +
+                '}';
     }
 }
